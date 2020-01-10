@@ -144,6 +144,30 @@
               "devServerTarget": "app1:serve:ci"
             }
           }
+        },
+        "ionic-cordova-build": {
+          "builder": "@ionic/angular-toolkit:cordova-build",
+          "options": {
+            "browserTarget": "app1:build"
+          },
+          "configurations": {
+            "production": {
+              "browserTarget": "app1:build:production"
+            }
+          }
+        },
+        "ionic-cordova-serve": {
+          "builder": "@ionic/angular-toolkit:cordova-serve",
+          "options": {
+            "cordovaBuildTarget": "app1:ionic-cordova-build",
+            "devServerTarget": "app1:serve"
+          },
+          "configurations": {
+            "production": {
+              "cordovaBuildTarget": "app1:ionic-cordova-build:production",
+              "devServerTarget": "app1:serve:development"
+            }
+          }
         }
       }
     }
