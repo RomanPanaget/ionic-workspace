@@ -12,7 +12,10 @@
     "importHelpers": true,
     "target": "es5",
     "typeRoots": ["node_modules/@types"],
-    "lib": ["es2018", "dom"]
+    "lib": ["es2018", "dom"],
+    "paths": {
+      "@lib1": ["projects/lib1/src"]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
