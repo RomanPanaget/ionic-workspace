@@ -1,4 +1,5 @@
 {
+  "defaultProject": "app1",
   "projects": {
     "app1": {
       "name": "app1",
