@@ -34,7 +34,7 @@
   },
   "devDependencies": {
     "@angular-devkit/architect": "^0.900.0-rc.10",
-    "@angular-devkit/build-angular": "^0.900.0-rc.10",
+    "@angular-devkit/build-angular": "^15.0.0",
     "@angular-devkit/build-ng-packagr": "^0.900.0-rc.10",
     "@angular-devkit/core": "^9.0.0-rc.10",
     "@angular-devkit/schematics": "^9.0.0-rc.10",
